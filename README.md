@@ -6,7 +6,7 @@ Week 7 Check - makes an svg file when code runs
 CODE BEING USED RIGHT NOW: boxBox5
 
 
-Needs mvn to commpile
+Needs mvn to compile
 use this code to run:
 mvn compile
 java -cp target/classes box
