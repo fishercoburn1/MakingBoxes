@@ -5,6 +5,10 @@ Week 5 Check - made code that executes
 
 Week 7 Check - makes an svg file when code runs
 
+Week 9 - added user input
+
+Week 11 - testing out notches
+
 CODE BEING USED RIGHT NOW: boxBox11startNotches
 Cyclomatic Complexity, flowchart, and user story are all found in file under Cyclomatic Complexity
 
