@@ -31,7 +31,7 @@ public class box
             System.out.print("What do you want the height to be in inches? ");
             double height = input.nextInt();
             System.out.println("Please Work");
-            work();
+            work(width, length, height);
   }
 
   public static void work(double width, double length, double height)
@@ -67,31 +67,46 @@ public class box
 
         //The build string will handle the box pieces code - - Until we get user input these will just be the string that we are hard coding outselves to make the box
         String[] pieces = new String[100];
-        pieces[0] = ("<g id=\"rectangle-almost\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
-                           "<path d=\"M 1.0 " + point + " H " + length * 1.5 + " v " + width + " H 1.0 V " + point + "\" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
-                           "</g>\n");
-        point += addPos;
-        pieces[1] = ("<g id=\"rectangle-almost\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
-                           "<path d=\"M 1.0 " + point + " H " + length * 1.5 + " v " + width + " H 1.0 V " + point + "\" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
-                           "</g>\n");
+        pieces[0] = ("<g id=\"floor\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
+                             "<path d=\"M 1.0 1.0 h 16 v 16 h -16 v -16 \" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
+                             "</g>\n");
+        pieces[1] = ("<g id=\"wall1\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
+                             "<path d=\"M 1.0 20.0 h 4 v 2 h 4 v -2 h 4 v 2 h 4 v 18 h -4 v -2 h -4 v 2 h -4 v -2 h -4 v -18 \" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
+                             "</g>\n");
+        pieces[2] = ("<g id=\"wall2\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
+                             "<path d=\"M 1.0 42.0 h 4 v 2 h 4 v -2 h 4 v 2 h 4 v 18 h -4 v -2 h -4 v 2 h -4 v -2 h -4 v -18 \" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
+                             "</g>\n");
+        pieces[3] = ("<g id=\"wall3\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
+                             "<path d=\"M 20.0 1.0 h 4 v 2 h 4 v -2 h 4 v 2 h 4 v 18 h -4 v -2 h -4 v 2 h -4 v -2 h -4 v -18 \" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
+                             "</g>\n");
+        pieces[4] = ("<g id=\"wall4\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
+                             "<path d=\"M 20.0 23.0 h 4 v 2 h 4 v -2 h 4 v 2 h 4 v 18 h -4 v -2 h -4 v 2 h -4 v -2 h -4 v -18 \" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
+                             "</g>\n");
+        // pieces[0] = ("<g id=\"rectangle-almost\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
+        //                    "<path d=\"M 1.0 " + point + " H " + length * 1.5 + " v " + width + " H 1.0 V " + point + "\" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
+        //                    "</g>\n");
+        // point += addPos;
+        // pieces[1] = ("<g id=\"rectangle-almost\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
+        //                    "<path d=\"M 1.0 " + point + " H " + length * 1.5 + " v " + width + " H 1.0 V " + point + "\" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
+        //                    "</g>\n");
 
-        point += addPos;
-        addPos = height + 2.0;
-        pieces[2] = ("<g id=\"rectangle-almost\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
-                           "<path d=\"M 1.0 " + point + " H " + length * 1.5 + " v " + height + " H 1.0 V " + point + "\" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
-                           "</g>\n");
-        point += addPos;
-        pieces[3] = ("<g id=\"rectangle-almost\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
-                           "<path d=\"M 1.0 " + point + " H " + length * 1.5 + " v " + height + " H 1.0 V " + point + "\" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
-                           "</g>\n");
-        point += addPos;
-        pieces[4] = ("<g id=\"rectangle-almost\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
-                           "<path d=\"M 1.0 " + point + " H " + width * 1.5 + " v " + height + " H 1.0 V " + point + "\" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
-                           "</g>\n");
-        point += addPos;
-        pieces[5] = ("<g id=\"rectangle-almost\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
-                           "<path d=\"M 1.0 " + point + " H " + width * 1.5 + " v " + height + " H 1.0 V " + point + "\" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
-                           "</g>\n");
+        // point += addPos;
+        // addPos = height + 2.0;
+        // pieces[2] = ("<g id=\"rectangle-almost\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
+        //                    "<path d=\"M 1.0 " + point + " H " + length * 1.5 + " v " + height + " H 1.0 V " + point + "\" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
+        //                    "</g>\n");
+        // point += addPos;
+        // pieces[3] = ("<g id=\"rectangle-almost\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
+        //                    "<path d=\"M 1.0 " + point + " H " + length * 1.5 + " v " + height + " H 1.0 V " + point + "\" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
+        //                    "</g>\n");
+        // point += addPos;
+        // pieces[4] = ("<g id=\"rectangle-almost\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
+        //                    "<path d=\"M 1.0 " + point + " H " + width * 1.5 + " v " + height + " H 1.0 V " + point + "\" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
+        //                    "</g>\n");
+        // point += addPos;
+        // pieces[5] = ("<g id=\"rectangle-almost\" style=\"fill:none;stroke-linecap:round;stroke-linejoin:round;\">\n" +
+        //                    "<path d=\"M 1.0 " + point + " H " + width * 1.5 + " v " + height + " H 1.0 V " + point + "\" stroke=\"rgb(0,0,0)\" stroke-width=\"0.20\" />\n" +
+        //                    "</g>\n");
         String finalO = (top);
         for (int i = 0; pieces[i] != null; i++){
           finalO += pieces[i];
