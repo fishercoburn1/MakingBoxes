@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<svg height="81.90mm" viewBox="0.0 0.0 120.10 81.90" width="120.10mm"
+xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:svg="http://www.w3.org/2000/svg/"
+xmlns:xlink="http://www.w3.org/1999/xlink/">
+<g id="floor" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+<path d="M 1.0 3.0 h 24.0 v 16.0 h -24.0 v -16.0 " stroke="rgb(0,0,0)" stroke-width="0.20" />
+</g>
+<g id="length1" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+<path d="M 1.0 21.0 h 2.0 v 1 h 2.0 v -1 h 2.0 v 1 h 2.0 v -1 h 2.0 v 1 h 2.0 v -1 h 2.0 v 1 h 2.0 v 15.0 h -2.0 v -1 h -2.0 v 1 h -2.0 v -1 h -2.0 v 1 h -2.0 v -1 h -2.0 v 1 h -2.0 v -1 h -2.0 v -15.0 " stroke="rgb(0,0,0)" stroke-width="0.20" />
+</g>
+<g id="length2" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+<path d="M 1.0 39.0 h 2.0 v 1 h 2.0 v -1 h 2.0 v 1 h 2.0 v -1 h 2.0 v 1 h 2.0 v -1 h 2.0 v 1 h 2.0 v  15.0 h -2.0 v -1 h -2.0 v 1 h -2.0 v -1 h -2.0 v 1 h -2.0 v -1 h -2.0 v 1 h -2.0 v -1 h -2.0 v -15.0 " stroke="rgb(0,0,0)" stroke-width="0.20" />
+</g>
+<g id="width1" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+<path d="M 1.0 57.0 h 2.0 v 1 h 2.0 v -1 h 2.0 v 1 h 2.0 v -1 h 2.0 v 1 h 2.0 v -1 h 2.0 v 1 h 2.0 v  23.0 h -2.0 v -1 h -2.0 v 1 h -2.0 v -1 h -2.0 v 1 h -2.0 v -1 h -2.0 v 1 h -2.0 v -1 h -2.0 v -23.0 " stroke="rgb(0,0,0)" stroke-width="0.20" />
+</g>
+<g id="width2" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+<path d="M 1.0 75.0 h 2.0 v 1 h 2.0 v -1 h 2.0 v 1 h 2.0 v -1 h 2.0 v 1 h 2.0 v -1 h 2.0 v 1 h 2.0 v  23.0 h -2.0 v -1 h -2.0 v 1 h -2.0 v -1 h -2.0 v 1 h -2.0 v -1 h -2.0 v 1 h -2.0 v -1 h -2.0 v -23.0 " stroke="rgb(0,0,0)" stroke-width="0.20" />
+</g>
+</svg>
