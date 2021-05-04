@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<svg height="15in" viewBox="0.0 0.0 120.10 81.90" width="30in"
+xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:svg="http://www.w3.org/2000/svg/"
+xmlns:xlink="http://www.w3.org/1999/xlink/">
+<g id="floor" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+<path d="M 1.01 1.01 h 5.46 v 0.6825 h 2.184 v -0.6825 h 2.184 v 0.6825 h 2.184 v -0.6825 h 2.184 v 0.6825 h 2.184 v -0.6825 h 5.46 v 6.825 h -0.6825 v 2.73 h 0.6825 v 2.73 h -0.6825 v 2.73 h 0.6825 v 2.73 h -0.6825 v 2.73 h 0.6825 v 6.825 h -5.46 v -0.6825 h -2.184 v 0.6825 h -2.184 v -0.6825 h -2.184 v 0.6825 h -2.184 v -0.6825 h -2.184 v 0.6825 h -5.46 v -6.825 h 0.6825 v -2.73 h -0.6825 v -2.73 h 0.6825 v -2.73 h -0.6825 v -2.73 h 0.6825 v -2.73 h -0.6825 v -6.825 " stroke="rgb(0,0,0)" stroke-width="0.1" />
+</g>
+<g id="length1" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+<path d="M 1.01 29.320000000000004 h 8.19 v 0.6825 h 3.276 v -0.6825 h 3.276 v 0.6825 h 3.276 v -0.6825 h 3.276 v 0.6825 h 3.276 v -0.6825 h 8.19 M 33.769999999999996 29.320000000000004 C 37.1825 29.320000000000004, 37.1825 32.7325, 33.769999999999996 32.7325 v 23.8875 h -8.19 v -0.6825 h -3.276 v 0.6825 h -3.276 v -0.6825 h -3.276 v 0.6825 h -3.276 v -0.6825 h -3.276 v 0.6825 h -8.19 v -6.825 h -0.6825 v -2.73 h 0.6825 v -2.73 h -0.6825 v -2.73 h 0.6825 v -2.73 h -0.6825 v -2.73 h 0.6825 v -6.825 " stroke="rgb(0,0,0)" stroke-width="0.10" />
+</g>
+<circle cx="34.793749999999996" cy="31.026250000000005" r="0.63" stroke="black" stroke-width=".1" fill="none"/><g id="length2" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+<path d="M 38.81999999999999 1.01 h 8.19 v 0.6825 h 3.276 v -0.6825 h 3.276 v 0.6825 h 3.276 v -0.6825 h 3.276 v 0.6825 h 3.276 v -0.6825 h 8.19 M 71.57999999999998 1.01 C 74.99249999999998 1.01, 74.99249999999998 4.4225, 71.57999999999998 4.4225 v 23.8875 h -8.19 v -0.6825 h -3.276 v 0.6825 h -3.276 v -0.6825 h -3.276 v 0.6825 h -3.276 v -0.6825 h -3.276 v 0.6825 h -8.19 v -6.825 h -0.6825 v -2.73 h 0.6825 v -2.73 h -0.6825 v -2.73 h 0.6825 v -2.73 h -0.6825 v -2.73 h 0.6825 v -6.825 " stroke="rgb(0,0,0)" stroke-width="0.10" />
+</g>
+<circle cx="72.60374999999999" cy="2.71625" r="0.63" stroke="black" stroke-width=".1" fill="none"/><g id="width1" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+<path d="M 38.81999999999999 29.320000000000004 h 8.19 v -0.6825 h 3.276 v 0.6825 h 3.276 v -0.6825 h 3.276 v 0.6825 h 3.276 v -0.6825 h 3.276 v 0.6825 h 8.19 v  20.475 h -8.19 v 0.6825 h -3.276 v -0.6825 h -3.276 v 0.6825 h -3.276 v -0.6825 h -3.276 v 0.6825 h -3.276 v -0.6825 h -8.19 v -4.7775 h -0.6825 v -2.184 h 0.6825 v -2.184 h -0.6825 v -2.184 h 0.6825 v -2.184 h -0.6825 v -2.184 h 0.6825 v -4.7775 " stroke="rgb(0,0,0)" stroke-width="0.10" />
+</g>
+<g id="width2" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+<path d="M 76.63 1.01 h 8.19 v -0.6825 h 3.276 v 0.6825 h 3.276 v -0.6825 h 3.276 v 0.6825 h 3.276 v -0.6825 h 3.276 v 0.6825 h 8.19 v  20.475 h -8.19 v 0.6825 h -3.276 v -0.6825 h -3.276 v 0.6825 h -3.276 v -0.6825 h -3.276 v 0.6825 h -3.276 v -0.6825 h -8.19 v -4.7775 h -0.6825 v -2.184 h 0.6825 v -2.184 h -0.6825 v -2.184 h 0.6825 v -2.184 h -0.6825 v -2.184 h 0.6825 v -4.7775 " stroke="rgb(0,0,0)" stroke-width="0.10" />
+</g>
+<g id="floor" style="fill:none;stroke-linecap:round;stroke-linejoin:round;">
+<path d="M 76.63 23.860000000000003 h 21.84 v 0.63 h -0.6825 v 0.6825 h 0.6825 v 25.9875 h -21.84 v -25.9875 h 0.6825 v -0.6825 h -0.6825 v -0.63 " stroke="rgb(0,0,0)" stroke-width="0.10" />
+</g>
+</svg>
