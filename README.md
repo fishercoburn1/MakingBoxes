@@ -9,7 +9,9 @@ Week 9 - added user input
 
 Week 11 - testing out notches
 
-CODE BEING USED RIGHT NOW: boxBox13.zip
+Week15: Finishing everythikng, adding notches and hinged lid
+
+CODE FOR FINAL BOX: boxBoxA4
 
 Cyclomatic Complexity, flowchart, and user story are all found in file under Cyclomatic Complexity
 
